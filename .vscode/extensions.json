@@ -7,14 +7,10 @@
     "codezombiech.gitignore",
     "coenraads.bracket-pair-colorizer-2",
     "dbaeumer.vscode-eslint",
-    "ecmel.vscode-html-css",
     "esbenp.prettier-vscode",
-    "formulahendry.auto-rename-tag",
     "kisstkondoros.vscode-gutter-preview",
     "kiteco.kite",
     "mgmcdermott.vscode-language-babel",
-    "mkaufman.htmlhint",
-    "msjsdiag.debugger-for-chrome",
     "ms-vsliveshare.vsliveshare",
     "naumovs.color-highlight",
     "oderwat.indent-rainbow",
@@ -24,7 +20,6 @@
     "smelukov.vscode-csstree",
     "stkb.rewrap",
     "streetsidesoftware.code-spell-checker",
-    "stylelint.vscode-stylelint",
     "tyriar.sort-lines",
     "visualstudioexptteam.vscodeintellicode"
   ]
