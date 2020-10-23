@@ -1,10 +1,11 @@
 {
-  "name": "learnyounode",
+  "name": "node-starter",
   "version": "1.0.0",
-  "description": "learnyounode tut",
-  "main": "index.js",
+  "description": "Node Starter Repo for noobs",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "nodemon dist/main.js",
+    "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -14,11 +15,11 @@
     "nodejs"
   ],
   "author": "Manav Misra",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/manavm1990/fs-starter/issues"
+    "url": "https://github.com/manavm1990/node-starter/issues"
   },
-  "homepage": "https://github.com/manavm1990/fs-starter#readme",
+  "homepage": "https://github.com/manavm1990/node-starter#readme",
   "devDependencies": {
     "eslint": "^7.11.0",
     "eslint-config-airbnb-base": "^14.2.0",
