@@ -1,5 +1,7 @@
 # Node Starter
 
+This is a 'template repository.' Just click that big green button to use it.
+
 ## As always...as always
 
 ...after `clone` and `cd`, **`npm i`** to get all of the linting goodness, etc.
