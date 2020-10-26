@@ -8,5 +8,9 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: "module",
   },
-  rules: {},
+  rules: {
+    "array-callback-return": "warn",
+    "no-unused-vars": "warn",
+    "prefer-default-export": "warn"
+  },
 };
