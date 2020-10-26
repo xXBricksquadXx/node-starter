@@ -10,7 +10,7 @@ module.exports = {
   },
   rules: {
     "array-callback-return": "warn",
-    "import/no-unresolved": 0,
+    'import/no-unresolved': [2, { ignore: ['api', 'db'] }],
     "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
     "no-unused-vars": "warn",
     "prefer-default-export": "warn"
