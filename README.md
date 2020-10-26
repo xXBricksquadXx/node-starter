@@ -11,7 +11,7 @@ Use of this starter template assumes that you have a 'complete dev environment' 
 ## What's Included
 
 - [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-- [![Code Style](https://badgen.net/badge/code%20style/airbnb/ff5a5f?icon=airbnb)](https://github.com/airbnb/javascript). I have adjusted this slightly as per [this `commit`](https://github.com/manavm1990/node-starter/commit/ff1ed419d3ed411683b404b1cc6e221c859b0d33). More may be forthcoming as *feedback and [PRs](https://github.com/swic-cis-177/mt-project-studentloganbutler/pulls) trickle in.*
+- [![Code Style](https://badgen.net/badge/code%20style/airbnb/ff5a5f?icon=airbnb)](https://github.com/airbnb/javascript). I have adjusted this slightly as per [this `commit`](https://github.com/manavm1990/node-starter/commit/ff1ed419d3ed411683b404b1cc6e221c859b0d33). More may be forthcoming as _feedback and [PRs](https://github.com/swic-cis-177/mt-project-studentloganbutler/pulls) trickle in._
 - [`husky`](https://www.npmjs.com/package/husky) is also there to help check over code quality with the linters b4 there is a successful `commit`.
 - [`webpack`](https://www.npmjs.com/package/webpack) to allow the use of modern [EcmaScript Modules](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/)
 - Various VS Code 'settings' and 'extensions.' Look in the bottom right when you open this up in VS Code to install them.
@@ -30,6 +30,16 @@ In the other terminal: `npm run serve`. This will execute the `dist/main.js` tha
 
 Essentially, you just code and if you've set all the things up correctly, you will get alerted whenever there is something 'bad' in your code based on some industry-standard best practices 🦄.
 
+---
+
+**Don't 4get to ~~drink your Ovaltime~~ update `"name"`, `"description"`, `"author"`, etc. in 'package.json' when using this for your stuff.**
+
+---
+
+['webpack.config.js'] is configured to allow 'absolute imports.' This means that, for example in 'index.js,' you could do: `import api from "api";`, w/o worrying about `../` spit.
+
+Note that you may still see warnings about 'unsresolved imports' as 'ES Lint' is not able to tell that we have 'webpack' taking care of 'absolute' imports. To avoid this, see [here](https://github.com/manavm1990/node-starter/blob/e4db218aa836b68fccc0c052908b01e2d8e9c407/.eslintrc.js#L15)
+
 ## 🎶
 
 - For fonts, I set ['Victor Mono'](https://rubjo.github.io/victor-mono/) by default. You might also install: ['Inconsolata'](https://fonts.google.com/specimen/Inconsolata) or ['Source Code Pro'](https://fonts.google.com/specimen/Source+Code+Pro) - or completely change that in [.vscode/settings.json](/.vscode/settings.json), _if you know what you are doing! ⚠️_
@@ -38,6 +48,10 @@ Essentially, you just code and if you've set all the things up correctly, you wi
 
 ### Questions/Issues
 
-Reach me on [Twitter](https://twitter.com/GoCodeFinity) for ❓s or discussion.
+Use the 'comments' section of the [Dev post](https://dev.to/codefinity/node-noob-starter-repo-g31) for ❓s or discussion.
 
 If it's an actual issue... [open 1.](https://github.com/manavm1990/node-starter/issues)
+
+Contributions welcome. No specific guidelines at this point - just common sense - specific tasks, good `commit` messages, etc. Feel free to LMK of any doubts or queries.
+
+I do prefer `commit` messages that use [gitmoji](https://gitmoji.carloscuesta.me/). Also, using those sort of helps with 'categorizing' and 'separating' `commit`s appropriately.
