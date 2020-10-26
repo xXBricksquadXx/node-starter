@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/manavm1990/learnyounode"
+    "url": "git+https://github.com/manavm1990/node-starter"
   },
   "keywords": [
     "nodejs"
