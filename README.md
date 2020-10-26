@@ -41,3 +41,7 @@ Essentially, you just code and if you've set all the things up correctly, you wi
 Reach me on [Twitter](https://twitter.com/GoCodeFinity) for ❓s or discussion.
 
 If it's an actual issue... [open 1.](https://github.com/manavm1990/node-starter/issues)
+
+Contributions welcome. No specific guidelines at this point - just common sense - specific tasks, good `commit` messages, etc. Feel free to LMK of any doubts or queries.
+
+I do prefer `commit` messages that use [gitmoji](https://gitmoji.carloscuesta.me/). Also, using those sort of helps with 'categorizing' and 'separating' `commit`s appropriately.
