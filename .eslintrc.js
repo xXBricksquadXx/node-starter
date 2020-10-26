@@ -15,7 +15,7 @@ module.exports = {
       // TODO: Add additional directories that you may want to use for 'absolute imports'       
       'api', 'db'] }],
     "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
-    "no-unused-vars": "warn",
+    "no-unused-vars": ["warn", { varsIgnorePattern: "^_" }]
     "prefer-default-export": "warn"
   },
 };
