@@ -17,6 +17,7 @@ module.exports = {
           // TODO: Add additional directories that you may want to use for 'absolute imports'
           "api",
           "db",
+          "lib"
         ],
       },
     ],
