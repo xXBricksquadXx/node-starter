@@ -10,7 +10,7 @@ This is a 'template repository.' Just click that big green button to start using
 - [`webpack`](https://www.npmjs.com/package/webpack) to allow the use of modern [EcmaScript Modules](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/)
 - Various VS Code 'settings' and 'extensions.' Look in the bottom right when you open this up in VS Code to install them.
 - [Kite 🪁](https://www.kite.com/javascript/) is also included. I personally recommend it, but it's certainly not compulsory to set this up.
-- Probably some other stuff I'm 4getting about for now 🤷🏽‍♂️
+- Directories 📂 with 'index.js' files as a suggested architecture. See comments in those files for addl. info.
 
 ## How To Use
 
@@ -28,6 +28,7 @@ Essentially, you just code and if you've set all the things up correctly, you wi
 
 - For fonts, I set ['Victor Mono'](https://rubjo.github.io/victor-mono/) by default. You might also install: ['Inconsolata'] or ['Source Code Pro'](https://fonts.google.com/specimen/Source+Code+Pro) - or complete change that in '.vscode/settings.json,' _if you know what you are doing! ⚠️_
 - As you get more comfortable, of course you can modify all the things as you C fit.
+- Read more about the motivations behind this [here.](https://dev.to/codefinity/node-noob-starter-repo-g31)
 
 ### Questions/Issues
 
