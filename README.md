@@ -38,7 +38,7 @@ Essentially, you just code and if you've set all the things up correctly, you wi
 
 ### Questions/Issues
 
-Reach me on [Twitter](https://twitter.com/GoCodeFinity) for ❓s or discussion.
+Use the 'comments' section of the [Dev post](https://dev.to/codefinity/node-noob-starter-repo-g31) for ❓s or discussion.
 
 If it's an actual issue... [open 1.](https://github.com/manavm1990/node-starter/issues)
 
