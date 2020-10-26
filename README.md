@@ -30,7 +30,13 @@ In the other terminal: `npm run serve`. This will execute the `dist/main.js` tha
 
 Essentially, you just code and if you've set all the things up correctly, you will get alerted whenever there is something 'bad' in your code based on some industry-standard best practices 🦄.
 
+---
+
 **Don't 4get to ~~drink your Ovaltime~~ update `"name"`, `"description"`, `"author"`, etc. in 'package.json' when using this for your stuff.**
+
+---
+
+['webpack.config.js'] is configured to allow 'absolute imports.' This means that, for example in 'index.js,' you could do: `import api from "api";`, w/o worrying about `../` spit.
 
 ## 🎶
 
