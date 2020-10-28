@@ -5,6 +5,8 @@ module.exports = {
   mode: "development",
   entry: "./src/index.js",
 
-  // 'Absolute imports'
-  modules: ["src", "node_modules"],
+  resolve: {
+    // 'Absolute imports'
+    modules: ["src", "node_modules"],
+  },
 };
