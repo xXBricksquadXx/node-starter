@@ -9,4 +9,5 @@ module.exports = {
     // 'Absolute imports'
     modules: ["src", "node_modules"],
   },
+  watch: true,
 };
