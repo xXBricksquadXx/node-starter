@@ -1,12 +1,12 @@
-# Node Starter
-
-This is a 'template repository.' Just click that big green button to start using it.
-
----
+# TLDR
 
 Use of this starter template assumes that you have a 'complete dev environment' setup - a terminal, Node, VS Code, at least. If not, you may want to [start here.](https://www.notion.so/codefinity/Setting-up-a-Local-Dev-Environment-for-JS-02a4e9f4a30043d3a8e7d109be3448f4)
 
----
+1. Click that big green button to start using it.
+2. `clone` your new repo from your GitHub to your local computer
+3. `cd` into the `clone`d repo and enter: `npm i`.
+
+# Node Starter
 
 ## What's Included
 
