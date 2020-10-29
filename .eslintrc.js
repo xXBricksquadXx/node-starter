@@ -3,10 +3,9 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  extends: ["airbnb-base", "prettier"],
+  extends: ["airbnb-base", "plugin:node/recommended", "prettier"],
   parserOptions: {
-    ecmaVersion: 12,
-    sourceType: "module",
+    ecmaVersion: 2020,
   },
   rules: {
     "array-callback-return": "warn",
@@ -17,7 +16,7 @@ module.exports = {
           // TODO: Add additional directories that you may want to use for 'absolute imports'
           "api",
           "db",
-          "lib"
+          "lib",
         ],
       },
     ],

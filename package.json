@@ -1,6 +1,9 @@
 {
   "name": "node-starter",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=12.0.0"
+  },
   "description": "Node Starter Repo for noobs",
   "private": true,
   "scripts": {
@@ -25,6 +28,7 @@
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-config-prettier": "^6.12.0",
     "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
     "husky": "^4.3.0",
     "lint-staged": "^10.4.0",
     "nodemon": "^2.0.6",
