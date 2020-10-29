@@ -7,7 +7,7 @@
   "description": "Node Starter Repo for noobs",
   "private": true,
   "scripts": {
-    "serve": "nodemon dist/main.js",
+    "start": "nodemon dist/main.js",
     "watch": "webpack"
   },
   "repository": {
