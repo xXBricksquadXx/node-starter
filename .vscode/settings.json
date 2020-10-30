@@ -14,10 +14,6 @@
   "editor.tabSize": 2,
   "editor.wordWrap": "wordWrapColumn",
   "editor.wordWrapColumn": 80,
-  "eslint.workingDirectories": [
-    "client",
-    "server"
-  ],
   "files.autoSave": "onFocusChange",
   "files.eol": "\n",
   "files.trimTrailingWhitespace": true,
