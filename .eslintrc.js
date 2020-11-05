@@ -23,6 +23,8 @@ module.exports = {
     "import/prefer-default-export": 1,
     "no-debugger": "warn",
     "no-plusplus": ["error", { allowForLoopAfterthoughts: true }],
-    "no-unused-vars": ["warn", { varsIgnorePattern: "^_" }],
+    "no-unused-vars": ["warn", {
+      argsIgnorePattern: "^_",
+      varsIgnorePattern: "^_" }],
   },
 };
