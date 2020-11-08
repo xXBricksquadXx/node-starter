@@ -27,8 +27,8 @@ module.exports = {
     "no-unused-vars": ["warn", {
       argsIgnorePattern: "^_",
       varsIgnorePattern: "^_" }],
-  },
-  "node/no-unsupported-features/es-syntax": ["warn", {
+    "node/no-unsupported-features/es-syntax": ["warn", {
       "ignores": ["modules"]
     }]
+  },
 };
