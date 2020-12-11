@@ -16,7 +16,7 @@ Use of this starter template assumes that you have a 'complete dev environment' 
 - [`webpack`](https://www.npmjs.com/package/webpack) to allow the use of modern [EcmaScript Modules](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/)
 - Various VS Code 'settings' and 'extensions.' Look in the bottom right when you open this up in VS Code to install them.
 - [Kite 🪁](https://www.kite.com/javascript/) is also included. I personally recommend it, but it's certainly not compulsory to set this up.
-- Directories 📂 with 'index.js' files as a suggested architecture. See comments in those files for addl. info.
+- Directories 📂 with 'index.js' files as a suggested architecture. **See comments in those files for addl. info.**
 
 ## How To Use
 
