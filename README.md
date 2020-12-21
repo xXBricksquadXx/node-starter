@@ -36,7 +36,7 @@ Essentially, you just code and if you've set all the things up correctly, you wi
 
 ---
 
-['webpack.config.js'] is configured to allow 'absolute imports.' This means that, for example in 'index.js,' you could do: `import api from "api";`, w/o worrying about `../` spit.
+['webpack.config.js'] is configured to allow 'absolute imports.' This means that, for example in 'index.js,' you could do: `import api from "api";`, w/o worrying about `../` spit. **If you end up removing 🔥 directories 📂, you may need to also see the 'TODO' in '.eslintrc.js'**
 
 Note that you may still see warnings about 'unsresolved imports' as 'ES Lint' is not able to tell that we have 'webpack' taking care of 'absolute' imports. To avoid this, see [here](https://github.com/manavm1990/node-starter/blob/e4db218aa836b68fccc0c052908b01e2d8e9c407/.eslintrc.js#L15)
 
