@@ -14,8 +14,9 @@ module.exports = {
       1,
       {
         ignore: [
-          // TODO: Add additional directories that you may want to use for 'absolute imports'
+          // TODO: Add/remove 🔥 additional directories that you may want to use for 'absolute imports'
           "api",
+          "config",
           "db",
           "lib",
         ],
