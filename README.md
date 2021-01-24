@@ -24,7 +24,7 @@ Run `npm i` to get all the things installed.
 
 Ideally, you'll run this from 2 different terminal instances.
 
-In one terminal, you do: `npm run watch`. This will watch the files in [src](/src). This is where you would do your coding.
+In one terminal, you do: `npm run webpack`. This will watch the files in [src](/src). This is where you would do your coding.
 
 In the other terminal: `npm start`. This will execute the `dist/main.js` that webpack builds for you.
 

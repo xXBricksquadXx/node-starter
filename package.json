@@ -8,7 +8,7 @@
   "private": true,
   "scripts": {
     "start": "nodemon dist/main.js",
-    "watch": "webpack"
+    "webpack": "webpack"
   },
   "repository": {
     "type": "git",
