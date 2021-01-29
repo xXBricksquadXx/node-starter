@@ -6,6 +6,7 @@ Use of this starter template assumes that you have a 'complete dev environment' 
 2. `clone` your new repo from your GitHub to your local computer
 3. `cd` into the `clone`d repo and enter: `npm i`.
 4. `mkdir dist; touch dist/main.js`
+5. In one terminal instance, run `npm run webpback`. In another terminal instance (in the same directory), run `npm start`
 
 ## Node Starter
 
