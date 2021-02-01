@@ -1,3 +1,7 @@
 import { studentData } from "./lib";
 
-console.log(studentData);
+// get a list of all student last names and ids
+// only those that scored below 70
+const lowScores = studentData.filter((scoreLow) => scoreLow.score <= 70);
+
+console.log(lowScores);
